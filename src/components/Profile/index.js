@@ -11,21 +11,21 @@ export default class Profile extends Component {
               <h1> About Me </h1>
               <div className="row IconContainer">
                 <div className="col-md-3">
-                  <i class="fab fa-js"></i>
+                  <i class="fab fa-js profileIcons"></i>
                   <br />
                   JavaScript
                 </div>
                 <div className="col-md-3">
-                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-html5 profileIcons"></i>
                   <br />
                   HTML
                 </div>
                 <div className="col-md-3">
-                  <i class="fab fa-css3-alt"></i> <br />
+                  <i class="fab fa-css3-alt profileIcons"></i> <br />
                   CSS
                 </div>
                 <div className="col-md-3">
-                  <i class="fab fa-react"></i>
+                  <i class="fab fa-react profileIcons"></i>
                   <br />
                   React
                 </div>
