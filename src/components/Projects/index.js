@@ -11,7 +11,8 @@ export default class Projects extends Component {
             <div className="col-md-8">
               <img
                 className="verdant"
-                src="https://user-images.githubusercontent.com/69770137/99292540-5758f400-280f-11eb-93f7-c3299670bd29.png"
+                            src="https://user-images.githubusercontent.com/69770137/99292540-5758f400-280f-11eb-93f7-c3299670bd29.png"
+                            alt="project1"
               />
             </div>
                     <div className="col-md-4"> <h1>Verdant-Green Thumbs</h1>
@@ -28,18 +29,23 @@ export default class Projects extends Component {
                     <div className="col-md-8">
                     <img
                 className="verdant"
-                src="https://github.com/Longhuynh741/project-2/blob/main/images/Home%20Page.png?raw=true"
+                            src="https://github.com/Longhuynh741/project-2/blob/main/images/Home%20Page.png?raw=true"
+                            alt="project2"
+
               />    </div>
           </div>
           <div className="row">
             <div className="col-md-8">
               <img
                 className="verdant"
-                src="https://github.com/Napica/Toned-Tribe/raw/master/asset/images/HomePage2.png"
-              />
+                            src="https://github.com/Napica/Toned-Tribe/raw/master/asset/images/HomePage2.png"
+                            alt="project3"
+
+                        />
             </div>
                     <div className="col-md-4">
                         <h1> Toned Tribe </h1>
+                        
             <br />
                 API-based web application designed for users to search and locate gyms and marketplaces in their desired area.        </div>
           </div>

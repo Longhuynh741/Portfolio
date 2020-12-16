@@ -32,12 +32,11 @@ export default class Profile extends Component {
               </div>
               <div className="row">
                 <div classname="col-md-2">
-                  {" "}
                   <img
                     src="https://avatars1.githubusercontent.com/u/69899325?s=400&u=e29f72c3efb9e4fbb78864a3579b9fbca33e39a0&v=4"
                     alt=""
                     class="user-image"
-                  />
+                                />       
                 </div>
                 <div className="col-md-10">
                   <h4>
