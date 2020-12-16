@@ -1,11 +1,17 @@
-import React, { Component } from 'react'
-
+import React, { Component } from "react";
+require("./script.css");
 export default class Profile extends Component {
-    render() {
-        return (
-            <div>
-                This is the Profile section
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="heroSection">
+        <div className="jumbotron hero">
+          <h1 className="heroText">
+            Hello my name is Long Huynh. <br />
+            Nice to meet you
+          </h1>
+                <button> Get to know me</button>
+        </div>
+      </div>
+    );
+  }
 }
