@@ -5,7 +5,7 @@ export default class Profile extends Component {
   render() {
     return (
       <div>
-        <div className="container IconText">
+        <div className="container IconText" id="profileSection">
           <div className="row">
             <div className="col-md-12">
               <h1> About Me </h1>

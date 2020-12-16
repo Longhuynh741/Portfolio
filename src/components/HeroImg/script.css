@@ -7,6 +7,30 @@
 }
 
 .heroText{
+    margin-top: 250px;
     color: white;
     font-family: 'Bebas Neue', cursive;
+}
+
+.button {
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.5s;
+    color: white;
+    width: 10%;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 10px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.button a {
+    color: white;
+    transition: all 0.3s ease-in-out;
 }
