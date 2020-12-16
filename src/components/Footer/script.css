@@ -1,0 +1,9 @@
+.footer {
+    background:red;
+}
+
+#footerText{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
