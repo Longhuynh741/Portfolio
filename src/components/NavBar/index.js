@@ -1,21 +1,44 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 require("./script.css");
 
-export default class NavBar extends Component {
-    render() {
+const NavBar = () => { 
+
+
+  const scrollHome = () => {
+    window.scrollTo({
+      top:1200,
+      behavior: 'smooth'
+    })
+}
+
+const scrollProjects = () => {
+  window.scrollTo({
+    top:2125,
+    behavior: 'smooth'
+  })
+}
+
+const scrollContact = () => {
+  window.scrollTo({
+    top:3250,
+    behavior: 'smooth'
+  })
+}
+
         return (
             <div>
-  <Navbar className="NavText" bg="dark" variant="dark">
-    <Navbar.Brand className="NavText" href="#home">Long Huynh</Navbar.Brand>
+  <Navbar fixed ="top" className="NavBar" bg="dark" variant="dark">
+    <Navbar.Brand className="NavText" href="#home" sticky = "top">Long Huynh</Navbar.Brand>
     <Nav className="ml-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Projects</Nav.Link>
-      <Nav.Link href="#pricing">Contact Me</Nav.Link>
+      <Nav.Link onClick = {scrollHome}>Home</Nav.Link>
+      <Nav.Link onClick = {scrollProjects}>Projects</Nav.Link>
+      <Nav.Link onClick = {scrollContact}>Contact Me</Nav.Link>
     </Nav>
 
   </Navbar>
             </div>
         )
     }
-}
+
+export default NavBar

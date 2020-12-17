@@ -4,7 +4,12 @@ require("./script.css");
 
 const HeroImg = () => {
 
-
+ const handleScrollEvent = () => {
+    window.scrollTo({
+      top:1200,
+      behavior: 'smooth'
+    })
+}
 
   return (
     <div className="heroSection">
@@ -13,7 +18,7 @@ const HeroImg = () => {
           Hello my name is Long Huynh. <br />
             Nice to meet you!
           </h1>
-        <div className="button"> <a href="#profileSection"> <h3>About Me </h3> </a> </div>
+        <div className="button" onClick={ handleScrollEvent}>  <h3>About Me </h3> </div>
       </div>
     </div>
   );
