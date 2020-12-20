@@ -21,7 +21,7 @@ const scrollProjects = () => {
 
 const scrollContact = () => {
   window.scrollTo({
-    top:3250,
+    top:4250,
     behavior: 'smooth'
   })
   }

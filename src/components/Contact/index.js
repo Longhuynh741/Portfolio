@@ -95,7 +95,7 @@ const Contact = () => {
               <i class="fab fa-facebook social"></i>
             </a>
           </div>
-        </div>
+        </div>    
       </div>
     </div>
   );
