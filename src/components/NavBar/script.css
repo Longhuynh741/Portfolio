@@ -1,4 +1,18 @@
 .NavText{
     font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+#nav-section{
+    color:#66fcf1;
+}
+.NavBar {
+    font-family: 'Bebas Neue', cursive;
     font-size: 25px;
+    background-color:#1f2833;
+}
+
+#title{
+    color: white;
 }

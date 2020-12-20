@@ -14,7 +14,7 @@ const NavBar = () => {
 
 const scrollProjects = () => {
   window.scrollTo({
-    top:2125,
+    top:2175,
     behavior: 'smooth'
   })
 }
@@ -24,16 +24,23 @@ const scrollContact = () => {
     top:3250,
     behavior: 'smooth'
   })
-}
+  }
+  
+  const scrollMain = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 
         return (
             <div>
-  <Navbar fixed ="top" className="NavBar" bg="dark" variant="dark">
-    <Navbar.Brand className="NavText" href="#home" sticky = "top">Long Huynh</Navbar.Brand>
+  <Navbar fixed ="top" className="NavBar">
+    <Navbar.Brand className="NavText" sticky = "top" onClick ={scrollMain}> <a id="title"> Long Huynh </a></Navbar.Brand>
     <Nav className="ml-auto">
-      <Nav.Link onClick = {scrollHome}>Home</Nav.Link>
-      <Nav.Link onClick = {scrollProjects}>Projects</Nav.Link>
-      <Nav.Link onClick = {scrollContact}>Contact Me</Nav.Link>
+      <Nav.Link onClick = {scrollHome} id="nav-section">Home</Nav.Link>
+      <Nav.Link onClick = {scrollProjects}id="nav-section">Projects</Nav.Link>
+      <Nav.Link onClick = {scrollContact}id="nav-section">Contact Me</Nav.Link>
     </Nav>
 
   </Navbar>

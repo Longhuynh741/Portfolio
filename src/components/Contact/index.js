@@ -9,9 +9,9 @@ const Contact = () => {
   const target = useRef(null);
   const newTarget = useRef(null);
   return (
-    <div>
-      <h1> Get in Touch! </h1>
+    <div className="contact-section">
       <div className="container">
+      <h1 className="section-head"> Get in Touch! </h1>
         <div className="row">
           <div className="col-md-4">
             <i
@@ -25,7 +25,7 @@ const Contact = () => {
                   className="phoneNumber"
                   {...props}
                   style={{
-                    backgroundColor: "red",
+                    backgroundColor: "#45a29e",
                     padding: "2px 10px",
                     color: "white",
                     marginLeft: "40px",
@@ -50,7 +50,7 @@ const Contact = () => {
                   className="email"
                   {...props}
                   style={{
-                    backgroundColor: "red",
+                    backgroundColor: "#45a29e",
                     padding: "2px 10px",
                     color: "white",
                     marginLeft: "10px",

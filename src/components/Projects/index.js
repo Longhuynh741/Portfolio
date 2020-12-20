@@ -4,9 +4,9 @@ require("./script.css");
 export default class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="project-section">
             <div className="container">
-            <h1> My Projects</h1>
+            <h1 className="section-head"> My Projects</h1>
           <div className="row projectContainer">
             <div className="col-md-8">
               <img

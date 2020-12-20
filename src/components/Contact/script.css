@@ -1,7 +1,7 @@
 .contactIcon {
     margin-top: 50px;
     font-size: 50px;
-    color: red;
+    color: #66fcf1;
 }
 
 .fab{
@@ -18,6 +18,10 @@
 .social{
     margin-top: 0px;
     font-size: 50px;
-    color: red;
+    color: #66fcf1;
     ;
+}
+
+.contact-section {
+    color: #c5c6c7;
 }

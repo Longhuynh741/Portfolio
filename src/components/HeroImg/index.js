@@ -15,7 +15,7 @@ const HeroImg = () => {
     <div className="heroSection">
       <div className="jumbotron hero">
         <h1 className="heroText">
-          Hello my name is Long Huynh. <br />
+          Hello my name is <a id="nameText">Long Huynh. </a> <br />
             Nice to meet you!
           </h1>
         <div className="button" onClick={ handleScrollEvent}>  <h3>About Me </h3> </div>

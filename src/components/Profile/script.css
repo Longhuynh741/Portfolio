@@ -1,13 +1,21 @@
 .profileIcons {
     font-size: 130px;
-    color: Red;
+    color: #66fcf1;
 }
 .IconText {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
+    color: #c5c6c7;
 }
 
 .IconContainer {
     margin-bottom: 140px;
     margin-top: 140px;
 }
+
+.section-head {
+    border-bottom: 3px solid #45a29e;
+    text-align: center;
+    padding-top: 30px;
+}
+
