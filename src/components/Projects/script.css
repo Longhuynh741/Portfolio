@@ -19,3 +19,20 @@ width: 100%;
     padding-bottom: 10px;
 }
 
+
+.site-button {
+    transition: all 0.5s;
+    font-family: 'Bebas Neue', cursive;
+    transition: all 0.5s ease-in-out;
+    background-color: #45a29e;
+    margin: 15px;
+}
+
+.site-button:hover {
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
+
+.site-button a {
+    color: black;
+}

@@ -11,8 +11,8 @@ const Contact = () => {
   return (
     <div className="contact-section">
       <div className="container">
-      <h1 className="section-head"> Get in Touch! </h1>
-        <div className="row">
+      <h1 className="section-head" data-aos="fade-up"> Get in Touch! </h1>
+        <div className="row" data-aos="flip-left">
           <div className="col-md-4">
             <i
               class="fas fa-mobile-alt contactIcon"
@@ -74,7 +74,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="row">
+        <div className="row" data-aos="flip-right">
           <div className="col-md-4">
             <a href="https://www.linkedin.com/in/long-huynh-299498193/" target="blank">
               <i class="fab fa-linkedin social"></i>

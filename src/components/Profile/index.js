@@ -8,24 +8,24 @@ export default class Profile extends Component {
         <div className="container IconText" ref={this.stateRef}>
           <div className="row">
             <div className="col-md-12">
-              <h1 className="section-head"> About Me </h1>
+              <h1 className="section-head" data-aos="fade-up"> About Me </h1>
               <div className="row IconContainer">
                 <div className="col-md-3">
-                  <i class="fab fa-js profileIcons"></i>
+                  <i class="fab fa-js profileIcons" data-aos="flip-up"></i>
                   <br />
                   JavaScript
                 </div>
                 <div className="col-md-3">
-                  <i class="fab fa-html5 profileIcons"></i>
+                  <i class="fab fa-html5 profileIcons" data-aos="flip-down"></i>
                   <br />
                   HTML
                 </div>
                 <div className="col-md-3">
-                  <i class="fab fa-css3-alt profileIcons"></i> <br />
+                  <i class="fab fa-css3-alt profileIcons" data-aos="flip-up"></i> <br />
                   CSS
                 </div>
                 <div className="col-md-3">
-                  <i class="fab fa-react profileIcons"></i>
+                  <i class="fab fa-react profileIcons" data-aos="flip-down"></i>
                   <br />
                   React
                 </div>
@@ -41,7 +41,7 @@ export default class Profile extends Component {
                 <div className="col-md-10">
                   <section>
                 
-                    <div className="bioText" data-aos="fade-left" data-aos-duration="1000">
+                    <div className="bioText" data-aos="fade-left">
                       Recent graduate from Georgia Tech's Full Stack Web
                       Development Bootcamp. Passionately pursuing a career as a
                       Software Engineer. I currently live in Atlanta, GA. My
