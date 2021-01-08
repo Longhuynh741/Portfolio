@@ -7,21 +7,21 @@ const NavBar = () => {
 
   const scrollHome = () => {
     window.scrollTo({
-      top:1200,
+      top:1400,
       behavior: 'smooth'
     })
 }
 
 const scrollProjects = () => {
   window.scrollTo({
-    top:2175,
+    top:2725,
     behavior: 'smooth'
   })
 }
 
 const scrollContact = () => {
   window.scrollTo({
-    top:4250,
+    top:4550,
     behavior: 'smooth'
   })
   }

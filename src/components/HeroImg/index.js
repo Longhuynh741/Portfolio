@@ -6,7 +6,7 @@ const HeroImg = () => {
 
  const handleScrollEvent = () => {
     window.scrollTo({
-      top:1200,
+      top:1400,
       behavior: 'smooth'
     })
 }

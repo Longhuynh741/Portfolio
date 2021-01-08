@@ -30,17 +30,15 @@ export default class Profile extends Component {
                   React
                 </div>
               </div>
-              <div className="row">
-                <div classname="col-md-2">
-                  <img
-                    src="https://avatars1.githubusercontent.com/u/69899325?s=400&u=e29f72c3efb9e4fbb78864a3579b9fbca33e39a0&v=4"
+              <div className="row image-cell">
+                  <img  className="cell-image"
+                    src="https://avatars1.githubusercontent.com/u/69899325?s=400&u=97c1fc618c874cffee8ee3564aed5330d5858723&v=4"
                     alt=""
-                    class="user-image"
                   />
-                </div>
-                <div className="col-md-10">
+              </div>
+              <div className="row">
+                <div>
                   <section>
-                
                     <div className="bioText" data-aos="fade-left">
                       Recent graduate from Georgia Tech's Full Stack Web
                       Development Bootcamp. Passionately pursuing a career as a
