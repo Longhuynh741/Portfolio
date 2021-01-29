@@ -67,7 +67,7 @@ const Contact = () => {
           </div>
           <div className="col-md-4">
             <a
-              href="https://drive.google.com/file/d/1rSD9Hkdxe-AjXItgXfxeYAQWBca-2z4r/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ulAtLsU8tnoSBVZbx84a8lBbc8oz710c/view?usp=sharing"
               target="blank"
             >
               <i class="fas fa-file-pdf contactIcon">
